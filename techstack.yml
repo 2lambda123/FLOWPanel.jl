@@ -1,0 +1,44 @@
+repo_name: 2lambda123/FLOWPanel.jl
+report_id: 0e2326f3d6d9bf85db8232f4d7819746
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:58:21+00:00'
+requested_by: EdoAlvarezR
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/FLOWPanel.jl
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/FLOWPanel.jl/blob/master/.github/workflows/CompatHelper.yml
+  detection_source: ".github/workflows/CompatHelper.yml"
+  last_updated_by: EdoAlvarezR
+  last_updated_on: 2022-10-07 21:37:19.000000000 Z
+- name: Julia
+  description: A high-level, high-performance dynamic programming language for technical
+    computing
+  website_url: http://pkg.julialang.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package_manager/3914/default_a30825f60d1159a8bca0d7d45c4988f63eeb2b0f.png
+  detection_source_url: https://github.com/2lambda123/FLOWPanel.jl
+  detection_source: Repo Metadata
